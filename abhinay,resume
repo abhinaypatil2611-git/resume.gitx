@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+  
+    <title>My Resume</title>
+
+    
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #2d3748;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .header p {
+            margin-top: 8px;
+            font-size: 18px;
+            color: #cbd5e0;
+        }
+
+        .section {
+            padding: 25px 40px;
+        }
+
+        .section h2 {
+            color: #764ba2;
+            border-bottom: 2px solid #764ba2;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .section p, .section li {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background-color: #edf2f7;
+            color: #4a5568;
+            padding: 8px 12px;
+            margin: 6px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .footer {
+            background-color: #f7fafc;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: #718096;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>ABHINAY PATIL</h1>
+            <p>Web Developer | Designer | Student</p>
+        </div>
+
+        <div class="2">
+            <h2>me</h2>
+            <p>
+                I am a passionate individual with strong interest in web development and design.
+                I enjoy creating clean, colorful, and user-friendly websites.
+
+            </p>
+        </div>
+
+        <div class="3">
+            <h2>Education</h2>
+            <p><strong>Bachelor's Degree in ENGGINEERING</strong><br>
+               terna engg college<br>
+               2023 – 2027</p>
+        </div>
+
+        <div class="4">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>HTML,github</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>React</span>
+            </div>
+        </div>
+
+        <div class="4">
+            <h2>Experience</h2>
+            <ul>
+                <li>personal development projects</li>
+                <li>Freelance Website Designer</li>
+            </ul>
+        </div>
+
+        <div class="5">
+            <h2>Contact details</h2>
+            <p>Email: abhinaypatil@email.com<br>
+               Phone: 98xxxxxxxx<br>
+               Location: thane</p>
+        </div>
+
+        <div class="footer">
+            © 2026 abhinay.git
+        </div>
+
+    </div>
+
+</body>
+</html>
